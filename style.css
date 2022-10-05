@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(9, 5, 49)
+}
+#gameContainer{
+    text-align: center;
+}
+#gameBoard{
+    border: 20px solid lightcyan;
+    margin-top: 20px;
+    /* background:  rgb(81, 0, 115); */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset; 
+
+}
+
+#scoreText{
+    font-size: 80px;
+    color: blanchedalmond;
+}
+
+#resetBtn{
+   
+    font-size: 20px;
+    width: 80px;
+    height: 50px;
+    
+    border-radius: 15px;
+    cursor: pointer;
+    background: chartreuse;
+}
